@@ -78,11 +78,10 @@ body{
 
 /* ------------------Desktop designs---------------------- */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 475px) {
     .main-container-flex{
         flex-direction: row;
         width: 800px;
-        height: 500px;
         align-items: center;
     }
 
