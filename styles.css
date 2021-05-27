@@ -78,15 +78,16 @@ body{
 
 /* ------------------Desktop designs---------------------- */
 
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 450px){
     .main-container-flex{
         flex-direction: row;
         width: 800px;
+        height: 500px;
         align-items: center;
     }
 
     .container--33{
-        flex-grow: 0;
+        width: 260px;
     }
 
     .container1{
